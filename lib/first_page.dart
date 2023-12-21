@@ -17,6 +17,7 @@ class FirstPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Image.asset('images/flutter.png'),
               TextField(
                 onChanged: (text){
                   nameText = text;
